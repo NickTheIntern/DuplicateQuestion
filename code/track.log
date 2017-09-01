@@ -1,0 +1,137 @@
+nohup: ignoring input
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.7.5 locally
+INFO:tensorflow:Prefetching values from 1 files matching /home/ubuntu/code/A_skip_thoughts_1/skip_thoughts/training_data/validation-?????-of-00001
+INFO:tensorflow:Starting evaluation at 2017-05-10-22:46:28
+INFO:tensorflow:Skipping evaluation. No checkpoint found in: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train
+INFO:tensorflow:Starting evaluation at 2017-05-10-22:56:28
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+E tensorflow/stream_executor/cuda/cuda_driver.cc:509] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: ip-172-31-15-87
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: ip-172-31-15-87
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 352.99.0
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:363] driver version file contents: """NVRM version: NVIDIA UNIX x86_64 Kernel Module  352.99  Mon Jul  4 23:52:14 PDT 2016
+GCC version:  gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+"""
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 352.99.0
+I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 352.99.0
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-0
+INFO:tensorflow:Successfully loaded model.ckpt-0 at global step = 0.
+INFO:tensorflow:Skipping evaluation. Global step = 0 < 100
+INFO:tensorflow:Starting evaluation at 2017-05-10-23:06:28
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-248
+INFO:tensorflow:Successfully loaded model.ckpt-248 at global step = 248.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.422391 (642.31 sec)
+INFO:tensorflow:average accuracy = 0.794531 (642.31 sec)
+INFO:tensorflow:Finished processing evaluation at global step 248.
+INFO:tensorflow:Starting evaluation at 2017-05-10-23:17:28
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-801
+INFO:tensorflow:Successfully loaded model.ckpt-801 at global step = 801.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.379949 (642.85 sec)
+INFO:tensorflow:average accuracy = 0.817773 (642.85 sec)
+INFO:tensorflow:Finished processing evaluation at global step 801.
+INFO:tensorflow:Starting evaluation at 2017-05-10-23:28:28
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-1069
+INFO:tensorflow:Successfully loaded model.ckpt-1069 at global step = 1069.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.371665 (639.20 sec)
+INFO:tensorflow:average accuracy = 0.830273 (639.20 sec)
+INFO:tensorflow:Finished processing evaluation at global step 1069.
+INFO:tensorflow:Starting evaluation at 2017-05-10-23:39:24
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-1337
+INFO:tensorflow:Successfully loaded model.ckpt-1337 at global step = 1337.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.355963 (644.42 sec)
+INFO:tensorflow:average accuracy = 0.834570 (644.42 sec)
+INFO:tensorflow:Finished processing evaluation at global step 1337.
+INFO:tensorflow:Starting evaluation at 2017-05-10-23:50:26
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-1602
+INFO:tensorflow:Successfully loaded model.ckpt-1602 at global step = 1602.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.357078 (643.65 sec)
+INFO:tensorflow:average accuracy = 0.834375 (643.65 sec)
+INFO:tensorflow:Finished processing evaluation at global step 1602.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:01:27
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-1870
+INFO:tensorflow:Successfully loaded model.ckpt-1870 at global step = 1870.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.343755 (642.84 sec)
+INFO:tensorflow:average accuracy = 0.839844 (642.84 sec)
+INFO:tensorflow:saved model to backup
+INFO:tensorflow:Finished processing evaluation at global step 1870.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:12:28
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-2137
+INFO:tensorflow:Successfully loaded model.ckpt-2137 at global step = 2137.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.343146 (642.04 sec)
+INFO:tensorflow:average accuracy = 0.842969 (642.04 sec)
+INFO:tensorflow:saved model to backup
+INFO:tensorflow:Finished processing evaluation at global step 2137.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:23:27
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-2405
+INFO:tensorflow:Successfully loaded model.ckpt-2405 at global step = 2405.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.348314 (642.77 sec)
+INFO:tensorflow:average accuracy = 0.845313 (642.77 sec)
+INFO:tensorflow:Finished processing evaluation at global step 2405.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:34:27
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-2670
+INFO:tensorflow:Successfully loaded model.ckpt-2670 at global step = 2670.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.326921 (667.61 sec)
+INFO:tensorflow:average accuracy = 0.852344 (667.61 sec)
+INFO:tensorflow:saved model to backup
+INFO:tensorflow:Finished processing evaluation at global step 2670.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:45:52
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-2941
+INFO:tensorflow:Successfully loaded model.ckpt-2941 at global step = 2942.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.341502 (648.10 sec)
+INFO:tensorflow:average accuracy = 0.850586 (648.10 sec)
+INFO:tensorflow:Finished processing evaluation at global step 2942.
+INFO:tensorflow:Starting evaluation at 2017-05-11-00:56:59
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-3471
+INFO:tensorflow:Successfully loaded model.ckpt-3471 at global step = 3471.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.334601 (642.48 sec)
+INFO:tensorflow:average accuracy = 0.858984 (642.48 sec)
+INFO:tensorflow:Finished processing evaluation at global step 3471.
+INFO:tensorflow:Starting evaluation at 2017-05-11-01:07:59
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-3738
+INFO:tensorflow:Successfully loaded model.ckpt-3738 at global step = 3738.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.334409 (641.07 sec)
+INFO:tensorflow:average accuracy = 0.857812 (641.07 sec)
+INFO:tensorflow:Finished processing evaluation at global step 3738.
+INFO:tensorflow:Starting evaluation at 2017-05-11-01:18:57
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-4003
+INFO:tensorflow:Successfully loaded model.ckpt-4003 at global step = 4004.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.332150 (644.91 sec)
+INFO:tensorflow:average accuracy = 0.855078 (644.91 sec)
+INFO:tensorflow:Finished processing evaluation at global step 4004.
+INFO:tensorflow:Starting evaluation at 2017-05-11-01:29:59
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-4270
+INFO:tensorflow:Successfully loaded model.ckpt-4270 at global step = 4271.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.336855 (666.44 sec)
+INFO:tensorflow:average accuracy = 0.862891 (666.44 sec)
+INFO:tensorflow:Finished processing evaluation at global step 4271.
+INFO:tensorflow:Starting evaluation at 2017-05-11-01:41:22
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-4540
+INFO:tensorflow:Successfully loaded model.ckpt-4540 at global step = 4541.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+INFO:tensorflow:average loss = 0.347615 (675.44 sec)
+INFO:tensorflow:average accuracy = 0.862109 (675.44 sec)
+INFO:tensorflow:Finished processing evaluation at global step 4541.
+INFO:tensorflow:Starting evaluation at 2017-05-11-01:52:58
+INFO:tensorflow:Loading model from checkpoint: /home/ubuntu/code/A_skip_thoughts_2/skip_thoughts/model/train/model.ckpt-4806
+INFO:tensorflow:Successfully loaded model.ckpt-4806 at global step = 4806.
+INFO:tensorflow:Computed losses for 1 of 40 batches.
+run_track.sh: line 12: 17213 Terminated              bazel-bin/skip_thoughts/track_perplexity --input_file_pattern="${DATA_DIR}/validation-?????-of-00001" --checkpoint_dir="${MODEL_DIR}/train" --eval_dir="${MODEL_DIR}/val" --num_eval_examples=5000
